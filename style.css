@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url(https://tse3.mm.bing.net/th/id/OIP.LeW81RbhCfTRaxcgaNcBcwHaHh?r=0&w=570&h=579&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 50; font-size: 45px;
+    text-align: center;
+    color:deeppink;
+}
+
+h2{
+    font-family: "Cinzel", serif;
+    font-weight:400; font-size: 35px;
+    font-style: italic;
+    color:aqua;
+}
+
+nav ul {
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    list-style-type: none;
+    width: 100%;
+}
+
+nav li{
+    float:left;
+}
+
+nav li a {
+    display:block;
+    text-align: center;
+    list-style-type: none;
+    background-color:ivory;
+    padding: 5px 70px;
+    text-decoration:none;
+    color:rgb(8, 1, 0);
+}
+
+nav li a:hover:not(.active){
+    background-color:rgb(192, 136, 244);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h3 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 22px;
+    font-style:normal;
+    text-align: center;
+    color: blue;
+    background-color:antiquewhite;
+}
+
+p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700; font-size: 25px;
+    font-style: normal;
+    color:rgb(19, 248, 61);
+}
+
+table, th, td {
+  border: 3px solid #444;
+  padding: 8px;
+  border-color: rgb(246, 131, 213);
+  color: rgb(228, 243, 249);
+}
+
+ul li{
+    font-size: large;
+}
+
+ol li{
+    font-size: medium;
+    color: rgb(254, 160, 155);
+}
+
+ div{
+    width: 100%;
+    height: 100%;
+    background-color:coral;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    gap: 10px;
+    max-width: 100%;
+    margin: auto;  
+}
+
+.gallery-item {
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+}
